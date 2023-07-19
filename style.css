@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    color: rgb(22, 20, 20);
+
+}
+nav{
+    background-color: rgb(32, 70, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    margin: 10px;
+
+    
+}
+
+nav ul li{
+    display: flex;
+    justify-content:  space-evenly
+}
+
+nav ul li a{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    color:rgb(1, 1, 1);
+    text-decoration: none;
+   
+    
+}
+
+span{
+    color: rgb(255, 255, 255);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background-image: url();
+
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+
+
+
+img{
+    width: 100%;
+    height: 560px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+p{
+    margin: 30px;
+}
+
+#contact{
+    background-color: rgb(175, 175, 175);
+ }
+
+
+ 
+form{
+
+    width: 400px;
+    margin-left: 500px;
+    margin-right: 100px;
+
+}
+
+.input{
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+.gal{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background-color: rgb(149, 168, 181);
+    margin-left: 250px;
+
+}
+.gal img{
+    width: 100%;
+    height: 200px;
+    
+    border: 2px solid black;
+    margin: 20px;
+    display: flex;
+    margin-left: 110px;
+
+}
+
+/* .gal img:hover{
+    display: flex;
+    border: 3px ridge black;
+    box-shadow: 4px 4px 4px 4px;
+    width: 1100px;
+} */
+
+/* .hh p:hover{
+    display: flex;
+    border: 3px ridge black;
+    box-shadow: 4px 4px 4px 4px;
+    width: 400px;
+} */
+
+
+h2{
+    color: rgb(31, 33, 28);
+    text-align: center;
+    text-decoration: underline;
+    margin-right: 154px;
+}
+
+.hh{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.hh p{
+    margin-left: 80px;
+    justify-content: space-around;
+    display: flex;
+    
+    
+}
+
+
+#project{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    background-color: rgb(61, 61, 194);
+    
+
+    
+}
+
+h2{
+    margin: 30px;
+}
+
+h3{
+    text-align: center;
+    
+}
+
+span{
+    color: rgb(240, 15, 15);
+}
+
+
+.ac{
+    background-color: rgb(219, 219, 244);
+}
+
+/* .mark img{
+    width: 100%;
+    height: 5px;
+} */
